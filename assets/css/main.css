@@ -673,10 +673,13 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
-			padding: 1rem; 
+			padding: 30px;
 			object-fit: contain;
-			max-height: 400px;
+			max-height: 450px;
 		}
+			.image img + .image img {
+				padding: 0; 
+			}
 
 
 
@@ -720,6 +723,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		@media (min-width: 737px) and (max-width: 810px) {
+			.image img {
+				max-height: 400px;
+			}
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -732,6 +741,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 600px) {
+
+
+			.bio {
+				flex-direction: column; 
+			}
+			.image img {
+				max-height: 400px;
+				margin: 0 auto; 
+			}
+		}
+
 		@media screen and (max-width: 480px) {
 
 			.image.main {
@@ -742,10 +763,12 @@ input, select, textarea {
 				flex-direction: column; 
 			}
 			.image img {
-				max-height: 300px;
+				max-height: 400px;
 				margin: 0 auto; 
 			}
 		}
+
+		
 
 /* List */
 
@@ -1195,14 +1218,14 @@ input, select, textarea {
 		transition-delay: 0.75s;
 		background-color: #56768f;
 		/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
-		background-size: auto,
+		/* background-size: auto,
 256px 256px;
 		background-position: center,
 center;
 		background-repeat: no-repeat,
 repeat;
 		z-index: 2;
-	} */
+	} */ */
 
 	/* #bg:after {
 		-moz-transform: scale(1.125);
