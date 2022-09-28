@@ -1,6 +1,7 @@
 # CLIENT Website - Luna Logistics
 This is a website built for a freelance client for my consulting work. It is a simple and static business website featuring a landing page (index), about, services, and contact pages. 
 
+![Luna Website](https://camo.githubusercontent.com/74529f6005be211a3b9756df11f49c7f1464ae77a423f35e7feb5289097935d5/68747470733a2f2f692e6962622e636f2f6a3330573054332f6c756e616c6f676973746963732e706e67)  
 **Link to project:** https://lunafreight.com/
 
 ## How It's Made:
