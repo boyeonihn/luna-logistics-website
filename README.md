@@ -1,7 +1,7 @@
 # CLIENT Website - Luna Logistics
 This is a website built for a freelance client for my consulting work. It is a simple and static business website featuring a landing page (index), about, services, and contact pages. 
 
-**Link to project:** https://gorgeous-semolina-0fa19b.netlify.app/index.html
+**Link to project:** https://lunafreight.com/
 
 ## How It's Made:
 
